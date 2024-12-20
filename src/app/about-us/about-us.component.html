@@ -1,0 +1,14 @@
+<div class="about-us">
+  <h2>Sobre Nós</h2>
+  <p>Conheça nossa equipe de advogados dedicados a oferecer o melhor serviço jurídico.</p>
+
+  <div class="gallery">
+    <div class="gallery-item" *ngFor="let member of team">
+      <img [src]="member.image" [alt]="member.name" />
+      <div class="overlay">
+        <h3>{{ member.name }}</h3>
+        <p>{{ member.description }}</p>
+      </div>
+    </div>
+  </div>
+</div>
