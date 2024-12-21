@@ -1,59 +1,123 @@
-# ProjetoGuardaRotas
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 19.0.2.
+# Projeto Final - Curso Angular SENAI 2024
 
-## Development server
+Este projeto foi gerado utilizando o [Angular CLI](https://github.com/angular/angular-cli) versão 19.0.2.
 
-To start a local development server, run:
+## Servidor de Desenvolvimento
+
+Para iniciar um servidor de desenvolvimento local, execute:
 
 ```bash
 ng serve
 ```
 
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
+Após iniciar o servidor, abra seu navegador e navegue até [http://localhost:4200/](http://localhost:4200/). A aplicação será recarregada automaticamente sempre que você modificar qualquer um dos arquivos de origem.
 
-## Code scaffolding
+## Estrutura do Projeto
 
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
+A estrutura do projeto segue as melhores práticas recomendadas pelo Angular:
+
+- **`src/app`**: Contém os componentes, serviços e módulos da aplicação.
+- **`src/assets`**: Contém os arquivos estáticos, como imagens e fontes.
+- **`src/environments`**: Contém os arquivos de configuração de ambiente.
+
+## Gerenciamento de Dependências
+
+Para instalar as dependências do projeto, execute:
 
 ```bash
-ng generate component component-name
+npm install
 ```
 
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
+## Geração de Código
+
+O Angular CLI inclui ferramentas poderosas de scaffolding de código. Para gerar um novo componente, execute:
+
+```bash
+ng generate component nome-do-componente
+```
+
+Para uma lista completa de esquemas disponíveis (como components, directives ou pipes), execute:
 
 ```bash
 ng generate --help
 ```
 
-## Building
+## Construção
 
-To build the project run:
+Para construir o projeto, execute:
 
 ```bash
 ng build
 ```
 
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
+Isso irá compilar seu projeto e armazenar os artefatos de construção no diretório **`dist/`**. Por padrão, a construção de produção otimiza sua aplicação para desempenho e velocidade.
 
-## Running unit tests
+## Executando Testes Unitários
 
-To execute unit tests with the [Karma](https://karma-runner.github.io) test runner, use the following command:
+Para executar testes unitários com o Karma, use o seguinte comando:
 
 ```bash
 ng test
 ```
 
-## Running end-to-end tests
+## Executando Testes de Integração
 
-For end-to-end (e2e) testing, run:
+Para executar testes de integração com o Protractor, use o seguinte comando:
 
 ```bash
 ng e2e
 ```
 
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
+## Deploy
 
-## Additional Resources
+Para fazer o deploy da aplicação, siga os passos abaixo:
 
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+1. Construa a aplicação para produção:
+
+   ```bash
+   ng build --prod
+   ```
+
+2. Faça o upload dos arquivos gerados no diretório **`dist/`** para o seu servidor de hospedagem.
+
+## Contribuindo
+
+Se você deseja contribuir com este projeto, siga as diretrizes abaixo:
+
+1. Faça um fork do repositório.
+2. Crie uma nova branch para sua feature ou correção de bug:
+
+   ```bash
+   git checkout -b feature/nova-feature
+   ```
+
+3. Commit suas mudanças:
+
+   ```bash
+   git commit -am 'Adiciona nova feature'
+   ```
+
+4. Faça o push para a branch:
+
+   ```bash
+   git push origin feature/nova-feature
+   ```
+
+5. Abra um Pull Request.
+
+## Licença
+
+Este projeto está licenciado sob a licença MIT. Veja o arquivo **`LICENSE`** para mais detalhes.
+
+## Contato
+
+Para mais informações, entre em contato:
+
+- **Nome do Desenvolvedor**: Anderson
+- **Email**: anderson@example.com
+- **LinkedIn**: [Seu LinkedIn](#)
+
+---
+
+Este README foi criado para fornecer uma visão geral clara e concisa do projeto, facilitando a colaboração e o desenvolvimento contínuo.
