@@ -116,7 +116,7 @@ Para mais informações, entre em contato:
 
 - **Nome do Desenvolvedor**: Anderson
 - **Email**: andersonmares@gmail.com
-- **LinkedIn**: [Seu LinkedIn](https://www.linkedin.com/in/anderson-alves-de-oliveira-mares-a3376521/)
+- **LinkedIn**: [Anderson A O Mares](https://www.linkedin.com/in/anderson-alves-de-oliveira-mares-a3376521/)
 
 ---
 
