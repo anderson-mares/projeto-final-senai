@@ -115,8 +115,8 @@ Este projeto está licenciado sob a licença MIT. Veja o arquivo **`LICENSE`** p
 Para mais informações, entre em contato:
 
 - **Nome do Desenvolvedor**: Anderson
-- **Email**: anderson@example.com
-- **LinkedIn**: [Seu LinkedIn](#)
+- **Email**: andersonmares@gmail.com
+- **LinkedIn**: [Seu LinkedIn](https://www.linkedin.com/in/anderson-alves-de-oliveira-mares-a3376521/)
 
 ---
 
