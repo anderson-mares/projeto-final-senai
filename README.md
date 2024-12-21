@@ -114,7 +114,7 @@ Este projeto está licenciado sob a licença MIT. Veja o arquivo **`LICENSE`** p
 
 Para mais informações, entre em contato:
 
-- **Nome do Desenvolvedor**: Anderson
+- **Nome do Desenvolvedor**: Anderson Alves de Oliveira Mares
 - **Email**: andersonmares@gmail.com
 - **LinkedIn**: [Anderson A O Mares](https://www.linkedin.com/in/anderson-alves-de-oliveira-mares-a3376521/)
 
