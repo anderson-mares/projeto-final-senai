@@ -5,13 +5,12 @@ import { RouterModule, RouterOutlet } from '@angular/router';
 import { Sessao } from './auth/sessao.model';
 import { SessaoService } from './auth/sessao.service';
 import { Observable } from 'rxjs/internal/Observable';
-import { NavbarComponent } from "./navbar/navbar.component";
 import { FooterComponent } from './footer/footer.component';
 import { HeaderComponent } from './header/header.component';
 
 @Component({
   selector: 'app-root',
-  imports: [CommonModule, RouterModule, NavbarComponent, FooterComponent, HeaderComponent, ReactiveFormsModule],
+  imports: [CommonModule, RouterModule, FooterComponent, HeaderComponent, ReactiveFormsModule],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css',
 })

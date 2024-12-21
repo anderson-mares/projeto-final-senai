@@ -4,6 +4,7 @@ import { Router } from '@angular/router';
 import { of, throwError } from 'rxjs';
 import { SessaoService } from '../auth/sessao.service';
 import { CommonModule } from '@angular/common';
+import { NavbarComponent } from "../navbar/navbar.component";
 
 @Component({
   selector: 'app-login',
@@ -11,8 +12,9 @@ import { CommonModule } from '@angular/common';
   styles: [],
   imports: [
     CommonModule,
-    ReactiveFormsModule
-  ],
+    ReactiveFormsModule,
+    NavbarComponent
+],
 })
 export class LoginComponent {
   formGroup: FormGroup = new FormGroup({

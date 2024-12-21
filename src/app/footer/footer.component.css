@@ -3,11 +3,10 @@
   justify-content: space-around;
   align-items: center;
   padding: 20px;
-  background-color: #777777 ;
-  color: #fff;
-  position: fixed;
-  bottom: 0;
+  background-color: #777777;
+  color: #f9f9f9;
   width: 100%;
+  flex-shrink: 0;
 }
 
 .footer-info {
@@ -28,6 +27,6 @@
 }
 
 .footer-info a:hover {
-  color: #fff;
+  color: #f9f9f9;
   text-decoration: underline;
 }
