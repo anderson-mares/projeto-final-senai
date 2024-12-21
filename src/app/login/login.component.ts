@@ -36,16 +36,10 @@ export class LoginComponent {
 
     const { usuario, senha } = this.formGroup.value;
 
-    // IMPORTANTE: para facilitar o estudo,
-    // utilizamos a lógica abaixo, porém, no
-    // mundo real haveria uma chamada à uma
-    // service para acionar uma API e validar
-    // o usuário e senha.
-
     this.simularChamadaAPI(usuario, senha)?.subscribe({
       next: (resposta) => {
         this.sessaoService.salvarSessao(resposta);
-        this.router.navigate(['/home']);
+        this.router.navigate(['/lista']);
       },
       error: (erro) => {
         alert(erro);
